@@ -1,4 +1,12 @@
+# Environment variables
 apikey.env
+
+# Python compilation cache
 __pycache__/
+
+# Agent runtime files
 generated_code.py
 tempCodeRunnerFile.py
+
+# Execution logs (optional: keep if you want to track logs, ignore if you want them generated fresh)
+# logs.txt

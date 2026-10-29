@@ -1,19 +1,23 @@
-AI Coding Agent
-A Python CLI tool that converts plain-English coding tasks into Python code using Groq LLM.
+AI Coding Agent with Self-Correction
+Overview:
+This project converts natural language prompts into Python code using Groq LLM.
 
-Features
-Accepts task descriptions in English
-Generates Python code using Groq API
-Prints generated code in terminal
-Saves generated code automatically
-Supports string, math, list, and dictionary operations
+The agent generates code, executes it safely, captures errors, and retries up to 3 times using execution feedback.
 
-Installation
-pip install -r requirements.txt
+Features:
+Natural Language to Code Generation
+Automatic Code Execution
+Error Detection
+Self-Correction Loop
+Retry Mechanism
+Execution Logging
+Timeout Protection
 
-Setup
-Create a file called apikey.env
+Technologies Used:
+Python
+Groq API
+dotenv
+subprocess
 
-GROQ_API_KEY=your_api_key
-
-Run python main.py
+Run:
+python main.py
